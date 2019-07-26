@@ -1,0 +1,46 @@
+.container-center
+{
+    font-family: 'calibri';
+    background:rgba(red, green, blue, alpha);
+    border:2px solid #ccc;
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
+    height: 380px;
+}
+
+h5, p
+{
+    font-size: 20px;
+}
+
+.input-group
+{   
+    display: inline;
+    margin: 5%;
+}
+
+input
+{
+    width: 10%;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid rgb(222, 184, 135);
+    text-align: center;
+}
+
+button
+{
+    font-size: 15px;
+    background-color:rgb(222, 184, 135);
+    color:#ffff;
+    padding: 8px;
+    border-radius: 10%;
+    border-style: none;
+}
+
+button:hover
+{
+    background-color: rgb(233, 195, 146);
+}
