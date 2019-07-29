@@ -33,7 +33,7 @@ function getRaices(numeros)
 }
 
 
-export function bask(numeros)
+export function bhask(numeros)
 {
     //Si a es cero no se hace.
     if(numeros.a == 0){ return false; }

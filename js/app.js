@@ -1,4 +1,4 @@
-import { bask } from './baskaraModule.js';
+import { bask } from './bhaskaraModule.js';
 import { clearElements, extractInputs } from './Commonfn.js';
 
 var btnAplicar = document.getElementById('btnAplicar');
@@ -8,7 +8,7 @@ var raices = document.getElementById('raices');
 var soluciones = document.getElementById('soluciones');
 
 
-btnAplicar.addEventListener('click', aplicarBaskara);
+btnAplicar.addEventListener('click', aplicarBhaskara);
 btnLimpiar.addEventListener('click', clear);
 
 function clear()
@@ -39,13 +39,13 @@ function mensajes(msg, place)
 
 }
 
-function aplicarBaskara()
+function aplicarBhaskara()
 {   
     let numeros = obtenerNumeros();
     let msg = '';
     let espacio = '&nbsp&nbsp&nbsp&nbsp';
 
-    let solucion = bask(numeros);
+    let solucion = bhask(numeros);
     console.log(solucion);
     soluciones.innerHTML = "";
 
