@@ -10,3 +10,8 @@ export function extractInputs(container)
     let inputs = document.getElementById(container).getElementsByTagName('input');
     return inputs;
 }
+
+export function msg(msg, place)
+{
+    place.innerHTML = msg;
+}
